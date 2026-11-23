@@ -1,0 +1,63 @@
+{
+    "chameleon_green_light": {
+        "hex": "#62CD00",
+        "description": "Chameleon main body (light green)",
+        "sampled_from": "logo-original.png, chameleon area x94-300 y39-215, most frequent opaque value",
+        "pixels_with_exact_value": 2114,
+        "pixels_in_sample": 7098
+    },
+    "chameleon_green_shade": {
+        "hex": "#4DAF00",
+        "description": "Chameleon belly/shadow (darker green)",
+        "sampled_from": "same area, darker cluster",
+        "pixels_with_exact_value": 1217,
+        "pixels_in_sample": 4174
+    },
+    "chameleon_highlight": {
+        "hex": "#AFF09E",
+        "description": "Glossy highlight streak on the back (anti-aliased gradient; median value)",
+        "sampled_from": "x115-180 y60-123, opaque pixels R 140-240",
+        "pixels_in_sample": 352
+    },
+    "eye_white": {
+        "hex": "#FFFFFF",
+        "description": "Eye white",
+        "sampled_from": "eye x233-271 y52-90",
+        "pixels_with_exact_value": 317,
+        "pixels_in_sample": 618
+    },
+    "pupil": {
+        "hex": "#000000",
+        "description": "Pupil",
+        "sampled_from": "eye x233-271 y52-90",
+        "pixels_with_exact_value": 96,
+        "pixels_in_sample": 124
+    },
+    "pos_green": {
+        "hex": "#00B63E",
+        "description": "\"Pos\" wordmark green",
+        "sampled_from": "\"Pos\" letters x740-1190 y120-345",
+        "pixels_with_exact_value": 22415,
+        "pixels_in_sample": 40183
+    },
+    "underline_green": {
+        "hex": "#00B43C",
+        "description": "Underline under \"arPos\" (rows vary slightly #00A840-#00BB37 from JPEG-like noise; mean of the 4 solid rows). Use pos_green in practice.",
+        "sampled_from": "x505-1180 y356-359",
+        "row_values": ["#00A840", "#00BB37", "#00B73C", "#00B63C"]
+    },
+    "wordmark_white": {
+        "hex": "#FFFFFF",
+        "description": "\"Gear\" + tagline in the original (dark-bg) logo",
+        "sampled_from": "\"Gear\" letters",
+        "pixels_with_exact_value": 51140,
+        "pixels_in_sample": 51163
+    },
+    "_recommended": {
+        "brand_green": "#00B63E",
+        "mascot_green": "#62CD00",
+        "mascot_shade": "#4DAF00",
+        "navy": "#0F1B2D",
+        "note": "navy #0F1B2D is NOT in the original logo: it is the dark text colour chosen for the light-background variants (close to the site heading colour). The site buttons (#6A9A2E-#8BC34A olive/lime) do not match the logo; align UI greens to pos_green / chameleon greens."
+    }
+}
